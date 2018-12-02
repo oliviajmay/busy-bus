@@ -2,32 +2,33 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+      <meta name="viewport" content="width=375, initial-scale=1">
     <title>BusyBus</title>
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
     <script src="https://use.fontawesome.com/37471687aa.js"></script>
   </head>
   <body>
+    <div class="status-bar">
+      <img src="/Assets/status bar.png">
+    </div>
     <section class="container">
       <nav>
         <div class="back-arrow">
-          <i class="far fa-chevron-left fa-inverse fa-2x" aria-hidden="true"></i>
+          <img src="/Assets/back arrow.png" height="15" width=10>
         </div>
-        <h2>Back</h2>
+        <p class="back">Back</p>
       </nav>
-      <section class="search-bar"
-        <div class="bus-stop"
-          <h1>Washington and State</h1>
-        </div>
-        <div class="search"
+      <section class="search-bar">
+        <div class="bus-stop">
+          <h1>Washington & State</h1>
+        <div class="search-box">
           <div class="search-icon">
-            <i class="far fa-search fa-inverse fa-2x" aria-hidden="true"></i>
+            <i class="fa fa-search fa-inverse fa-1.5x" aria-hidden="true"></i>
           </div>
-          <div class="content"
-            <h3>Search Bus Stops...</h3>
-          </div>
-          <div class="voice-icon"
-            <i class="fas fa-microphone fa-inverse fa-2x" aria-hidden="true"></i>
+          <p class="search">Search Bus Stops...</p>
+          <div class="voice-icon">
+            <i class="fa fa-microphone fa-inverse fa-1.5x" aria-hidden="true"></i>
           </div>
         </div>
       </section>
@@ -41,6 +42,7 @@
               <li class="destination">Navy Pier</li>
               <li class="time">Now</li>
             </ul>
+            <hr class="line"></hr>
           </div>
         </div>
         <div class="buses">
@@ -49,8 +51,9 @@
               <li class="number">60</li>
               <li class="direction">Eastbound</li>
               <li class="destination">Randolph/Harbor Dr</li>
-              <li class="time">7 min</li>
             </ul>
+            <div class="time">7 min</div>
+            <hr class="line"></hr>
           </div>
         </div>
         <div class="buses">
@@ -61,6 +64,7 @@
               <li class="destination">Devon/Clark</li>
               <li class="time">12 min</li>
             </ul>
+            <hr class="line"></hr>
           </div>
         </div>
       </section>

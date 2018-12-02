@@ -1,0 +1,107 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("/Assets/MAP.png");
+  background-size: cover;
+  font-size: 16px;
+  font-family: 'SF Pro Text';
+}
+
+.container {
+  width: 375px;
+}
+
+nav {
+  box-sizing: border-box;
+  padding: 0 10px 10px 10px;
+  position: relative;
+}
+
+.back-arrow {
+  display: inline-block;
+}
+
+.back {
+  color: #007AFF;
+  display: inline-block;
+}
+
+.search-bar {
+  box-sizing: border-box;
+  padding: 0px 10px 0 10px;
+}
+
+.bus-stop h1{
+  font-size: 34px;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+
+.search-box {
+  box-sizing: border-box;
+  background-color: rgba(142,142,147, 0.2);
+  border-radius: 10px;
+  padding: 5px;
+  width: 355px;
+}
+
+.search-icon {
+  display: inline-block;
+}
+
+.search-box p {
+  display: inline-block;
+  color: #8E8E93;
+}
+
+.voice-icon {
+  display: inline-block;
+  float: right;
+}
+
+.list {
+  margin-top: 200px;
+  padding: 10px 10px 0 10px;
+  box-sizing: border-box;
+  background-color: rgba(255,255,255, 0.7);
+  border-radius: 10px 10px 0 0;
+  position: relative;
+}
+
+.list h1 {
+  font-size: 20px;
+  font-weight: bold;
+  color: #666666;
+  padding-bottom: 10px;
+}
+
+.number {
+  font-size: 34px;
+  font-weight: bold;
+  color: #000000;
+  padding-bottom: 2px;
+}
+
+.direction {
+  font-size: 20px;
+  font-weight: bold;
+  color: #000000;
+  padding-bottom: 2px;
+}
+
+.destination {
+  font-size: 15px;
+  font-weight: lighter;
+  color: #666666;
+  padding-bottom: 2px;
+}
+
+.time {
+  font-size: 28px;
+  font-weight: bold;
+  color: #FF2D55;
+  display: inline-block;
+  float: right;
+}
