@@ -4,7 +4,8 @@
 
 body {
   background-image: url("/Assets/MAP.png");
-  background-size: cover;
+  background-size: contain;
+  background-repeat: no-repeat;
   font-size: 16px;
   font-family: 'SF Pro Text';
 }
@@ -15,12 +16,12 @@ body {
 
 nav {
   box-sizing: border-box;
-  padding: 0 10px 10px 10px;
   position: relative;
 }
 
 .back-arrow {
   display: inline-block;
+  padding: 0 0 10px 10px;
 }
 
 .back {
@@ -62,7 +63,7 @@ nav {
 }
 
 .list {
-  margin-top: 200px;
+  margin-top: 300px;
   padding: 10px 10px 0 10px;
   box-sizing: border-box;
   background-color: rgba(255,255,255, 0.7);
@@ -98,10 +99,41 @@ nav {
   padding-bottom: 2px;
 }
 
+.content {
+  display: inline-block;
+}
+
 .time {
   font-size: 28px;
   font-weight: bold;
-  color: #FF2D55;
+  color: #4FBA61;
   display: inline-block;
   float: right;
+  padding: 23.5px 0 23.5px 0;
+}
+
+footer {
+  height: 83px;
+  width: 375px;
+  background-color: #F8F8F8;
+  position: fixed;
+  bottom: 0;
+  z-index: 10;
+}
+
+.navbar li {
+  display: inline-block;
+  font-size: 10px;
+  color: #8A8A8F;
+  margin-top: 20px;
+  margin-right: 27px;
+  margin-left: 27px;
+}
+
+.navbar a {
+  text-align: center;
+}
+
+a:active{
+  color: #007AFF;
 }
