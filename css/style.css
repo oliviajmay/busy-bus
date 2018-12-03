@@ -112,6 +112,25 @@ nav {
   padding: 23.5px 0 23.5px 0;
 }
 
+.content2 {
+  display: inline-block;
+}
+
+.content2 .direction{
+  color: #FF2D55;
+}
+ .time2 {
+   font-size: 28px;
+   font-weight: bold;
+   color: #FF2D55;
+   text-align: right;
+   display: inline-block;
+   float: right;
+   padding: 23.5px 0 23.5px 0;
+   box-sizing: border-box;
+   width: 130px;
+ }
+
 footer {
   height: 83px;
   width: 375px;
@@ -126,12 +145,28 @@ footer {
   font-size: 10px;
   color: #8A8A8F;
   margin-top: 20px;
-  margin-right: 27px;
-  margin-left: 27px;
 }
 
 .navbar a {
   text-align: center;
+  margin-left: 27px;
+  margin-right: 27px;
+}
+
+.route {
+  padding-left: 25px;
+}
+
+.bus {
+  padding-left: 32px;
+}
+
+.alarm {
+  padding-left: 28px;
+}
+
+.favorite {
+  padding-left: 33px;
 }
 
 a:active{
