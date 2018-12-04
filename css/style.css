@@ -31,6 +31,7 @@ body {
 .back {
   color: #007AFF;
   display: inline-block;
+  font-size: 20px;
 }
 
 .bus-stop h1{
