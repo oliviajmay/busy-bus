@@ -4,8 +4,9 @@
 
 body {
   background-image: url("/Assets/MAP.png");
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
+  background-attachment: fixed;
   font-size: 16px;
   font-family: 'SF Pro Text';
 }
@@ -16,16 +17,22 @@ body {
 
 .status-bar {
   margin-left: 4%;
+  position: fixed;
+  top: 0;
 }
 
 .header {
   padding-left: 3%;
   padding-right: 3%;
+  width: 100%;
+  position: fixed;
+  top: 0;
 }
 
 .back-arrow {
   display: inline-block;
   padding-bottom: 10px;
+  margin-top: 50px;
 }
 
 .back {
@@ -63,10 +70,10 @@ body {
 }
 
 .list {
-  margin-top: 350px;
+  margin-top: 120%;
   margin-bottom: 83px;
   padding: 3% 3% 0 3%;
-  box-sizing: border-box;
+  box-sizing:border-box;
   background-color: rgba(255,255,255, 0.7);
   border-radius: 10px 10px 0 0;
   position: relative;
