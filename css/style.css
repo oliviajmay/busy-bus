@@ -3,12 +3,12 @@
 }
 
 body {
-  background-image: url("/Assets/MAP.png");
+  background-image: url("../Assets/MAP.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  font-size: 16px;
-  font-family: 'SF Pro Text';
+  font-size: 18px;
+  font-family: 'SF Pro Text', Helvetica;
 }
 
 .container {
@@ -30,19 +30,19 @@ body {
   background: #F8F8F8;
 }
 
-.back-arrow {
+.fa-chevron-left {
   display: inline-block;
   padding-bottom: 10px;
   margin-top: 50px;
+  color: #007AFF;
 }
 
 .back {
   color: #007AFF;
   display: inline-block;
-  font-size: 20px;
 }
 
-.bus-stop h1{
+h1{
   font-size: 34px;
   font-weight: bold;
   padding-bottom: 10px;
@@ -53,19 +53,18 @@ body {
   background-color: rgba(142,142,147, 0.2);
   border-radius: 10px;
   padding: 2%;
-  width: 95;
+  color: #8E8E93;
 }
 
-.search-icon {
+.fa-search {
   display: inline-block;
 }
 
 .search-box p {
   display: inline-block;
-  color: #8E8E93;
 }
 
-.voice-icon {
+.fa-microphone {
   display: inline-block;
   float: right;
 }
@@ -75,16 +74,21 @@ body {
   margin-bottom: 83px;
   padding: 3% 3% 0 3%;
   box-sizing:border-box;
-  background-color: rgba(255,255,255, 0.7);
+  background-color: rgba(255,255,255, 0.8);
   border-radius: 10px 10px 0 0;
   position: relative;
 }
 
-.list h1 {
+.list h3 {
   font-size: 20px;
   font-weight: bold;
   color: #666666;
   padding-bottom: 10px;
+}
+
+.row {
+  height:75px;
+  display: inline-block;
 }
 
 .number {
@@ -108,27 +112,27 @@ body {
   padding-bottom: 2px;
 }
 
-.content {
-  display: inline-block;
-}
-
 .time {
+  height:75px;
   font-size: 28px;
   font-weight: bold;
   color: #4FBA61;
+  text-align: right;
   display: inline-block;
   float: right;
   padding: 23.5px 0 23.5px 0;
 }
 
-.content2 {
+.row-RR {
   display: inline-block;
 }
 
-.content2 .direction{
+.row-RR .direction{
   color: #FF2D55;
 }
- .time2 {
+
+ .time-RR {
+   height:75px;
    font-size: 28px;
    font-weight: bold;
    color: #FF2D55;
@@ -136,19 +140,25 @@ body {
    display: inline-block;
    float: right;
    padding: 23.5px 0 23.5px 0;
-   box-sizing: border-box;
-   width: 36%;
  }
 
- .time3 {
+ .row-OS {
+   display: inline-block;
+ }
+
+ .row-OS .number, .row-OS .direction, .row-OS .destination {
+   color: #8E8E93;
+ }
+
+ .time-OS {
+   height:75px;
    font-size: 28px;
    font-weight: bold;
-   color: #FF2D55;
+   color: #8E8E93;
    text-align: right;
    display: inline-block;
    float: right;
    padding: 11px 0 11px 0;
-   box-sizing: border-box;
    width: 36%;
  }
 
@@ -168,7 +178,7 @@ footer {
   display: inline-block;
   font-size: 10px;
   color: #8A8A8F;
-  margin-top: 3.5%;
+  margin-top: 4.5%;
 }
 
 .navbar a {
@@ -183,16 +193,20 @@ footer {
 
 .route {
   padding-left: 25px;
+  padding-bottom: 5px;
 }
 
 .bus {
   padding-left: 32px;
+  padding-bottom: 5px;
 }
 
 .alarm {
   padding-left: 28px;
+  padding-bottom: 5px;
 }
 
 .favorite {
   padding-left: 33px;
+  padding-bottom: 5px;
 }
